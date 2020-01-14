@@ -17,7 +17,7 @@
 
 <p>
   <strong>User:</strong>
-  <%= @post.usert.decimal :title, precision: 10, scale: 2 %>
+  <%= @post.user.name %>
 </p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
