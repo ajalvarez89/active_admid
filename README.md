@@ -1,24 +1,50 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# active_admin
 
-Things you may want to cover:
+This is a project for test de active admin gem
+💎Ruby version: 2.6.3
+💎Rails version: 5.2.4.1
 
-* Ruby version
+## Gems
 
-* System dependencies
+Just run the bin setup:
 
-* Configuration
+```bash
+  gem 'activeadmin'
+  # Plus integrations with:
+  gem 'devise'
+  gem 'cancancan'
+  gem 'draper'
+  gem 'pundit'
+```
+## Setup
 
-* Database creation
+Just run the bin setup:
 
-* Database initialization
+```bash
+  bin/setup
+```
 
-* How to run the test suite
+To run the app:
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+  rails server
+```
+## Endpoinds:💎
 
-* Deployment instructions
+* GET Users:
+```bash
+   localhost:3000/users
+```
+* GET Posts:
+```bash
+   localhost:3000/posts
+```
+* GET Bookings:
+```bash
+   localhost:3000/admin
+```
 
-* ...
+## Pending
+- Install rspec
+- Create tests
